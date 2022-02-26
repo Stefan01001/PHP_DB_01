@@ -3,7 +3,13 @@
 // Inclui arquivo de configuração
 require_once $_SERVER['DOCUMENT_ROOT'] . "/_config.php";
 
-// Inclui o cbeçalho da página
+// Define o título DESTA página.
+$page_title = "";
+
+// Opção ativa no menu
+$page_menu = "index";
+
+// Inclui o cabeçalho da página
 require_once $_SERVER['DOCUMENT_ROOT'] . "/_header.php";
 
 ?>
